@@ -1,6 +1,6 @@
 # Python to run Sono-ai's Text-to-Speech API - BARK.
 
-# Thanks you for the idea and intial code to play with @
+# Thank you for the idea and intial code to play with @
 # https://github.com/suno-ai/bark/pull/84
 
 import datetime
