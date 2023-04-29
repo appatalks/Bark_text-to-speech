@@ -1,4 +1,4 @@
-# Python to run Sono-ai's Text-to-Speech API - BARK.
+# Python to run Suno-ai's Text-to-Speech API - BARK.
 
 # Thank you for the idea and intial code to play with @
 # https://github.com/suno-ai/bark/pull/84
