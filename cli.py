@@ -6,17 +6,22 @@
 import datetime
 from bark import SAMPLE_RATE,generate_audio,preload_models
 from scipy.io.wavfile import write as write_wav
+import os
 import numpy as np
 import nltk
 # from loguru import logger
 import playsound
 
-
 # Set up loguru logger
 # logger.add("/tmp/bark.log", format="{debug}")
 
 nltk.download('punkt')
-preload_models()
+preload_models(
+    text_use_small=True,
+    coarse_use_small=True,
+    fine_use_small=True,
+    codec_use_gpu=False,
+)
 
 # Set up sample rate (importing instead atm)
 # SAMPLE_RATE = 22050
